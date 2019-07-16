@@ -1,12 +1,30 @@
 {
-  "name": "d3Course",
+  "name": "d3-course",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spnikit/d3-charts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spnikit/d3-charts/issues"
+  },
+  "homepage": "https://github.com/spnikit/d3-charts#readme",
+  "description": "",
+  "dependencies": {
+    "d3": "^5.9.7"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
